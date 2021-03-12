@@ -1,0 +1,57 @@
+* {
+        box-sizing: border-box;
+}
+
+body{background-color:#faeac8;}
+
+h2, table {
+        text-align: center;
+}
+
+#contact-container img {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+}
+
+.navbar {
+       overflow: hidden;
+        background-color: #f8d4b4;
+        margin:0;
+        left: 0;
+}
+
+.navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding: 0.75em 1.2em;
+        border-right: 1px solid black;
+        font-family: "Lucida Console", "Courier New", monospace;
+}
+
+       .navbar a:hover {
+                background-color: #f6c79d;
+        }
+
+.navbar input[type=text] {
+        float: right;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        margin-right: 1.25em;
+        border: none;
+}
+
+footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #f8d4b4;
+        color: black;
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+}
+
