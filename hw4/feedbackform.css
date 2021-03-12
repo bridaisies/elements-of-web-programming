@@ -1,0 +1,49 @@
+body {
+        background-color: white;
+}
+
+h3 {
+        font-size: 20px;
+}
+
+.top {
+        text-align: center;
+}
+
+.container {
+        border-radius: 250px;
+        background-color: rgba(224, 197, 228, 0.35);
+        padding: 30px 150px 30px;
+}
+
+.entry {
+        width: 65%;
+}
+
+input[type=text], select, textarea {
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        padding: 8px;
+}
+
+input[type=submit]{
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        float: left;
+}
+
+input[type=reset] {
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        float: left;
+}
+
+.ck {
+        width: 85px;
+}
+

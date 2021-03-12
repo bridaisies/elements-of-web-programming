@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Bilbo&family=Nothing+You+Could+Do&family=Raleway+Dots&family=Thasadith:ital@1&family=VT323&display=swap');
+
+body {
+        background-color: white;
+}
+
+.header {
+        padding: 20px;
+        margin-top: -75px;
+        margin-left: -15px;
+        margin-right: -100px;
+        background: #1abc9c;
+        background-color: rgba(224, 197, 228, 0.35);
+        font-size: 10px;
+}
+
+.contact {
+        position: relative;
+        left: 190px;
+        top: -50px;
+}
+
+img {
+        border-radius: 50%;
+        position: relative;
+        transform: translateY(15%);
+}
+
+.name {
+        position: relative;
+        left: 190px;
+        top: 115px;
+        font-size: 25px;
+}
+
+h2 {
+        position: relative;
+        left: 20%;
+}
+
+table {
+        width="600px";
+
+}
+
+#first {
+        text-align: left;
+        padding: 35px;
+        width: 20em;
+        font-weight: bold;
+}
+
+#footer {
+        position: relative;
+        left: 35px;
+}
+
