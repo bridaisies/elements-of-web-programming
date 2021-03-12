@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Campus Visit Feedback Form</title>
+</head>
+
+<body>
+
+
+  <h3>Campus Visit Feedback Form</h3>
+  <p>Thank you for taking your time to help us improve our campus visits!</p>
+
+    <form id="feedback-form">
+      <table>
+        <tr>
+          <div class="form-group">
+            <td><label id="name-label">Name:</label></td>
+            <td colspan="6"><input 
+                type="text"
+                name="name"
+                placeholder="Enter your name"           
+                required></td>
+            </label>
+          </div>
+        </tr>
+
+        <tr>
+          <div class="form-group">
+            <td><label="address-label">Address:</label></td>
+            <td colspan="6"><input
+                type="text"
+                name="address"
+                placeholder="Enter your address"
+                required></td>
+            </label>
+          </div>
+        </tr>
+
+        <tr>
+          <div class="form-group">
+            <td><label="email-label">Email:</label></td>
+            <td colspan="6"><input
+                type="text"
+                name="email"
+                placeholder="Enter your email"
+                required></td>
+            </label>
+          </div>
+        </tr>
+
+        <tr>
+         <div class="form-group">
+           <td><p>What did you like most about campus?</p></td>
+            <td><label>
+              <input
+                    value="students"
+                    type="checkbox"
+                    class="input-checkbox"
+                     >Students</label></td>
+            <td><label>
+              <input
+                    value="location"
+                    type="checkbox"
+                    class="input-checkbox"
+                     >Location</label></td>
+            <td><label>
+              <input
+                    value="campus"
+                    type="checkbox"
+                    class="input-checkbox"
+                     >Campus</label></td>
+            <td><label>
+              <input
+                    value="courses-offered"
+                    type="checkbox"
+                    class="input-checkbox"
+                     >Courses offered</label></td>
+            <td><label>
+              <input
+                    value="housing"
+                    type="checkbox"
+                    class="input-checkbox"
+                     >Housing</label></td>
+            <td><label>
+             <input
+                    value="sports"
+                    type="checkbox"
+                    class="input-checkbox"
+                    >Sports</label></td>
+          </div>
+         </tr>
+
+         <tr>
+          <div class="form-group">
+            <td><p>How did you become interested?</p></td>
+             <td><label>
+              <input
+                     name="interest"
+                     value="family"
+                     type="radio"
+                     class="input-radio"
+                     checked>Family</label></td>
+             <td><label>
+              <input 
+                     name="interest"
+                     value="friends"
+                     type="radio"
+                     class="input-radio"
+                     >Friends</label></td>
+             <td><label>
+              <input
+                     name="interest"
+                     value="television"
+                     type="radio"
+                     class="input-radio"
+                     >Television</label></td>
+             <td><label>
+              <input
+                     name="interest"
+                     value="internet"
+                     type="radio"
+                     class="input-radio"
+                     >Internet</label></td>
+             <td><label>
+              <input
+                     name="interest"
+                     value="other"
+                     type="radio"
+                     class="input-radio"
+                     >Other</label></td>
+          </div>
+         </tr>
+
+         <tr>
+          <div class="form-group">
+            <td><p>What departments did you visit?</p></td>
+            <td colspan="6"><select id="dropdown" 
+                    name="department"
+                    required>
+              <option disabled selected value>Select a department</option>
+              <option value="education">Education</option>
+              <option value="engineering">Engineering</option>
+              <option value="natural-sciences">Natural Sciences</option>
+              <option value="liberal-arts">Liberal Arts</option>
+              <option value="business">Business</option>
+              <option value="architecture">Architecture</option>
+              <option value="communication">Communication</option>
+              <option value="fine-arts">Fine Arts</option>
+              <option value="geosciences">Geosciences</option>
+              <option value="information">Information</option>
+              <option value="social-work">Social Work</option>
+              <option value="nursing">Nursing</option>
+              <option value="pharmacy">Pharmacy</option>
+              <option value="undergraduate-studies">Undergraduate Studies</option></td>
+          </div>
+        </tr>
+
+        <tr>
+          <div class="form-group">
+            <td><p>Any additional comments?</p></td>
+            <td><textarea
+                     id="comments"
+                     name="comment"
+                     placeholder="Enter any comments here..."
+                          ></textarea></td>
+          </div>
+        </tr>
+
+        <tr>
+          <td><input type="submit" value="Submit"></td>
+        </tr>
+
+        <tr>
+          <td><input type="reset" value="Reset"></td>
+        </tr>
+     </table>
+   </form>
+</body>
+</html>
+
