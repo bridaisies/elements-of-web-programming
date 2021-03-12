@@ -1,0 +1,30 @@
+body {
+        font-family: "Times New Roman";
+}
+
+header {
+        background-color: tan;
+        padding: 8px;
+}
+
+header p {
+        font-size: 12px;
+}
+
+header h2, p {
+        text-align: center;
+        margin: 3px;
+}
+
+#left-bar, #right-bar {
+        width: 20%;
+        margin: auto;
+        padding: 1em;
+}
+
+#center-bar {
+        width: 50%;
+        margin: auto;
+        padding: 1em;
+}
+
