@@ -1,0 +1,9 @@
+h1, .slide, img, .buttons {
+        text-align: center;
+        position: relative;
+}
+
+img {
+        width: 640px;
+        height: 480px;
+}
