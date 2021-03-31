@@ -1,0 +1,41 @@
+* {
+        box-sizing: border-box;
+}
+
+h1, footer {
+        text-align: center;
+}
+
+h3 {
+        text-decoration: underline;
+}
+
+div {
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+        background-color: #ececec;
+}
+
+label {
+        font-weight: bold;
+}
+
+input {
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #eee;
+}
+
+        input:focus {
+                outline: none;
+                border: 1px solid #555;
+        }
+
+input[type="button"], input[type="reset"] {
+        background-color: #d4d4d4;
+        width: 40%;
+        margin: auto;
+        font-weight: bold;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Homework Assignment 7: Login and Password</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Validation for login and password">
+        <meta name="author" content="Brionna Huynh">
+        <link rel="icon" href="../favicon.ico">
+        <link rel="stylesheet" href="hw7.css">
+        <script type="text/javascript" src="hw7.js"></script>
+</head>
+
+<body>
+        <h1> Login and Password </h1>
+
+        <div id="calc">
+                <form action="echo.gi" method="POST">
+                        <h3>Enter your username and password below:</h3>
+
+                        <p>
+                                <label for="username">Username:</label>
+                                <input type="text" name="username" id="username">
+                        </p>
+
+                        <p>
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" id="password">
+                        </p>
+
+                        <p>
+                                <label for="password2">Repeat password:</label>
+                                <input type="password" name="password2" id="password2">
+
+                        </p>
+
+                        <input type="button" id="register" onclick="registration()" value="Register">
+                        <input type="reset" value="Clear">
+                </form>
+
+                <p>
+                        Criteria for the username:
+                </p>
+                        <ul>
+                                <li>Between 6 and 10 characters long, inclusive.</li>
+                                <li>Contains only letters and digits.</li>
+                                <li>Cannot begin with a digit.</li>
+                        </ul>
+
+                <p>
+                        Criteria for the password:
+                </p>
+                        <ul>
+                                <li>The password and repeat must match.</li>
+                                <li>Between 6 and 10 characters long, inclusive.</li>
+                                <li>Contains only letters and digits.</li>
+                                <li>Has at least one lower case letter, one upper case letter, and one digit.</li>
+                        </ul>
+        </div>
+
+</body>
+</html>
+
