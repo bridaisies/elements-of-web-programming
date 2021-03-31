@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Homework Assignment 6: Mortgage Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Mortage Calculator">
+        <meta name="author" content="Brionna Huynh">
+        <link rel="stylesheet" href="hw6.css">
+        <script type="text/javascript" src="hw6.js"></script>
+</head>
+
+<body>
+
+        <h1> Mortgage Calculator </h1>
+
+        <div id="calc">
+                <form action="echo.gi" method="POST">
+                        <p>
+                                <h3>Fill in the 3 fields below to calculate your monthly mortgage payments!</h3>
+                        </p>
+
+                        <p>
+                                <label for="principal">Principal amount:</label> $
+                                <input type="text" name="principal" id="principal">
+                        </p>
+
+                        <p>
+                                <label for="interest">Yearly percentage interest rate:</label>
+                                <input type="text" name="interest" id="interest">
+                                %
+                        </p>
+
+                        <p>
+                                <label for="duration">Loan term:</label>
+                                <input type="text" name="duration" id="duration">
+                                months
+                        </p>
+
+                        <input type="button" id="calculate" onclick="doMath()" value="Calculate">
+                        <input type="reset" value="Reset">
+
+                        <p>
+                                <label for="monthly">Monthly payments:</label> $
+                                <input type="text" name="monthly" id="monthly">
+                        </p>
+
+                        <p>
+                                <label for="sum_pay">Sum of all payments:</label> $
+                                <input type="text" name="sum_pay" id="sum_pay">
+                        </p>
+
+                        <p>
+                                <label for="sum_int">Total interest paid:</label> $
+                                <input type="text" name="sum_int" id="sum_int">
+                        </p>
+                </form>
+        </div>
+        <br>
+
+</body>
+</html>
