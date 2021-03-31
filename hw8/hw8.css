@@ -1,0 +1,43 @@
+@font-face {
+        font-family: "PX Sans Nouveaux";
+        src: url("fonts/px_sans_nouveaux.ttf");
+}
+
+body {
+        background-color: #152238;
+        font-family: "PX Sans Nouveaux";
+}
+
+h1 {
+        border: 4px black solid;
+        color: white;
+        background-color: black;
+        width: 640px;
+}
+
+h1, figure {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+figure {
+        width: 640px;
+        border: 4px black solid;
+}
+
+figcaption {
+        border: 4px black solid;
+        background-color: black;
+        color: white;
+}
+
+#img {
+        width: 640px;
+        height: 480px;
+}
+
+#img, figure {
+        margin: auto;
+}
+
