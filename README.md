@@ -1,4 +1,4 @@
-# cs329e elements of web programming at ut austin
+# elements of web programming at ut austin
 
 brionna huynh\
 email: brionna@utexas.edu\
