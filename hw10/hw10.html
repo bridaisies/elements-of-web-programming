@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Homework Assignment 10: Self-Grading Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Self-Grading Quiz">
+        <meta name="author" content="Brionna Huynh">
+        <link href="hw10.css" rel="stylesheet">
+        <script src="hw10.js"></script>
+</head>
+
+<body>
+
+<div id="header">
+        <h1>Quiz 1<br>CS 329E - Elements of Web Programming</h1>
+        <h2>March 29, 2021</h2>
+</div>
+
+        <form id="quiz" onsubmit="return gradeQuiz()" action="" method="POST">
+                <br>
+                <h3>True / False</h3>
+                <br>
+                <p>
+                        1. "URL" stands for "Universal Reference Link"<br>
+                        <label><input name="q1" type="radio" value="true"/></label> True
+                        <label><input name="q1" type="radio" value="false"/></label> False
+                </p>
+
+                <p>
+                        2.  An Apple MacBook is an example of a Linux system.<br>
+                        <label><input name="q2" type="radio" value="true"/></label> True
+                        <label><input name="q2" type="radio" value="false"/></label> False
+                </p>
+                <br>
+                <h3>Multiple Choice</h3>
+                <br>
+                <p>
+                        3. Which of these do NOT contribute to packet delay in a packet switching network?<br>
+                        <label><input name="q3" type="checkbox" value="a"/></label> Processing delay at a router
+                        <label><input name="q3" type="checkbox" value="b"/></label> CPU workload on a client
+                        <label><input name="q3" type="checkbox" value="c"/></label> Transmission delay along a communications link
+                        <label><input name="q3" type="checkbox" value="d" /></label> Propagation delay
+                </p>
+
+                <p>
+                        4. This Internet layer is responsible for creating the packets that move across the network.<br>
+                        <label><input name="q4" type="checkbox" value="a"/></label> Physical
+                        <label><input name="q4" type="checkbox" value="b"/></label> Data Link
+                        <label><input name="q4" type="checkbox" value="c"/></label> Network
+                        <label><input name="q4" type="checkbox" value="d"/></label> Transport
+                </p>
+                <br>
+                <h3>Fill in the Blank</h3>
+                <br>
+                <p>
+                        5. <label><input name="q5" type="text"></label> is a networking protocol that runs over TCP/IP, and governs communication between web browsers and web servers.
+                </p>
+
+                <p>
+                        6. A small icon displayed in a browser table that identifies a website is called a <label><input name="q6" type="text"></label>
+                </p>
+
+                <p>
+                        <button id="submit">Grade</button>
+                        <button value="reset">Clear</button>
+                </p>
+
+    </form>
+</body>
+</html>
+
