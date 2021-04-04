@@ -2,27 +2,38 @@
 <html lang="en">
 
 <head>
-        <title> Title </title>
+        <title>The Story of One Direction</title>
         <meta charset="UTF-8">
-        <meta name="description" content="">
-        <meta name="author" content="Jackie Sun">
+        <meta name="description" content="One Direction Fanpage">
+        <meta name="author" content="onedirection4evaa">
         <link rel="icon" href="images/book.png">
-
         <link rel="stylesheet" href="home.css">
-
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <script src="navbar.js"></script>
 </head>
 
 <body>
         <div class="navbar">
-                <a href="home.html" id="test">:w
-<img src="images/book.png" width = "50" height = "40" alt="logo"></a>
-                <a href="page.html">Members</a>
-                <a href="page.html">Discography</a>
-                <a href="page.html">Awards</a>
+                <a href="home.html" id="logo"><img src="images/book.png" width="50" height="40" alt="logo"></a>
+                <a href="#" id="members" onclick="membersDropdown()">Members
+                        <i class="fa fa-caret-down"></i>
+                </a>
+                <a href="discography.html">Discography</a>
+                <a href="awards.html">Awards</a>
                 <a href="page.html">Timeline</a>
                 <a href="page.html">Quiz</a>
                 <a href="contact.html">Contact Us</a>
                 <input type="text" placeholder="Search ...">
+        </div>
+        <div class="dropdown-content" id="memberPages">
+                <a href="harry.html">Harry Styles</a>
+                <a href="liam.html">Liam Payne</a>
+                <a href="louis.html">Louis Tomlinson</a>
+                <a href="niall.html">Niall Horan</a>
+                <a href="zayn.html">Zayn Malik</a>
         </div>
 
         <footer>
@@ -30,8 +41,8 @@
                         #onedirection4ever 3/10/2021
                 </p>
         </footer>
-        <br>
 
+        <br>
 </body>
 
 </html>

@@ -6,27 +6,38 @@
         <meta charset="UTF-8">
         <meta name="description" content="One Direction Fanpage">
         <meta name="author" content="onedirection4evaa">
-        <link rel="icon" href="book.png">
-
+        <link rel="icon" href="images/book.png">
         <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="navbar.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <script src="navbar.js"></script>
 </head>
 
 <body>
         <div class="navbar">
-                <a href="home.html" id="test"><img src="book.png" width = "50" height = "40" alt="logo"></a>
-                <a href="page.html">Members</a>
-                <a href="page.html">Discography</a>
-                <a href="page.html">Awards</a>
+                <a href="home.html" id="logo"><img src="images/book.png" width="50" height="40" alt="logo"></a>
+                <a href="#" id="members" onclick="membersDropdown()">Members
+                        <i class="fa fa-caret-down"></i>
+                </a>
+                <a href="discography.html">Discography</a>
+                <a href="awards.html">Awards</a>
                 <a href="page.html">Timeline</a>
                 <a href="page.html">Quiz</a>
                 <a href="contact.html">Contact Us</a>
                 <input type="text" placeholder="Search ...">
         </div>
+        <div class="dropdown-content" id="memberPages">
+                <a href="harry.html">Harry Styles</a>
+                <a href="liam.html">Liam Payne</a>
+                <a href="louis.html">Louis Tomlinson</a>
+                <a href="niall.html">Niall Horan</a>
+                <a href="zayn.html">Zayn Malik</a>
+        </div>
 
         <div id="text">
-                        <img src="up_all_night.jpg" alt="The Boys">
+                        <img src="images/up_all_night.jpg" alt="The Boys">
 <h1>The Story of One Direction</h1>
 <p>
                         One Direction has taken the music world by storm since originating from the stages of the X-Factor in 2010. From delivering yearly albums and hosting multiple sold-out tours to filming a concert documentary and tour film, One Direction is regarded as one of the most influential forces in the music industry. Not only have they accomplished more in five years than most bands do in their entire careers, but they have also garnered one of the largest fan bases. As an army of online fans grew around them, One Direction became the first band to have their entire legacy documented in real time, taking their fans with them on their journey. By creating this website that is dedicated towards One Direction, our group will be able to highlight their impactful legacy over their five years together, show our appreciation for the boy band, and hopefully share and spread that love to others.
@@ -35,15 +46,11 @@
 
         <footer>
                 <p>
-                #onedirection4ever 3/10/21
+                        #onedirection4ever 3/10/2021
                 </p>
-
-                <h6><a href="home.html">Back to Top</a></h6>
-                <h6><a href="contact.html">Contact Us</a></h6>
         </footer>
 
         <br>
 </body>
 
 </html>
-
