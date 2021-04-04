@@ -1,0 +1,36 @@
+* {
+        box-sizing: border-box;
+}
+
+body {
+        background-color: #faeac8;
+}
+
+h1, h2 {
+	font-family: "Bangers";
+}
+
+#uan_column, #tmh_column, #mm_column, #f_column, #mam_column {
+  	float: left;
+  	width: 20%;
+  	padding: 5px;
+}
+
+#discography {
+	font-family: "Lucida Console", "Courier New", monospace;
+	padding: 1px;
+}
+
+#discography, #album, #playlist, #tours {
+	text-align: center;
+	padding: 2px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#search {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;	
+}
+
