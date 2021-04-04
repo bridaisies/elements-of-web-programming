@@ -1,0 +1,24 @@
+* {
+        box-sizing: border-box;
+}
+
+body {
+        background-color: #faeac8;
+}
+
+header {
+        text-align: center;
+}
+
+h1 {
+	font-family: "Bangers";
+}
+
+table {
+        text-align: left;
+}
+
+#awards-container img {
+        width: 250px;
+        height: 150px;
+}
